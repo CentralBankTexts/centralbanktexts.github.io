@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Methodology and structure of the Monetary Policy Statement Database." />
+  <title>MPSD | Methodology</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-page="methodology">
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">MPSD</span>
+      <span class="brand-text">Monetary Policy Statement Database</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    <nav class="nav" id="site-nav">
+      <a href="index.html">Home</a>
+      <a href="papers.html">Papers</a>
+      <a href="methodology.html" class="active">Methodology</a>
+      <a href="contact.html">Access & Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro reveal">
+      <p class="eyebrow">Data Construction</p>
+      <h1>How MPSD is built</h1>
+      <p class="lead">A transparent, reproducible pipeline for central bank statement collection, normalization, and analysis-ready outputs.</p>
+    </section>
+
+    <section class="grid-2 reveal">
+      <article class="card">
+        <h3>Coverage</h3>
+        <p>Policy statements from 51 central banks, spanning 1990-2024, with standardized metadata and publication timestamps.</p>
+      </article>
+      <article class="card">
+        <h3>Pipeline</h3>
+        <p>Combines document parsing, NLP preprocessing, and LLM-assisted aspect-level sentiment and question-answer extraction.</p>
+      </article>
+      <article class="card">
+        <h3>Outputs</h3>
+        <p>Structured files designed for panel data analysis, event studies, forecasting, and cross-country communication metrics.</p>
+      </article>
+      <article class="card">
+        <h3>Reproducibility</h3>
+        <p>Versioned dataset releases and accompanying code support verification and extension of published research findings.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Monetary Policy Statement Database (MPSD) · <span id="year"></span></p>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

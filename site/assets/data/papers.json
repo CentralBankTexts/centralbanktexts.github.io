@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The monetary policy statement database",
+    "authors": "Baird, C.; Benchimol, J.; Vyshnevska, V.; Sohn, W.; Vyshnevskyi, I.",
+    "year": 2026,
+    "journal": "IFC Bulletin, 67",
+    "type": "journal",
+    "tags": ["foundational", "dataset", "central banks"],
+    "link": "https://www.bis.org/ifc/publ/ifcb67_14.pdf"
+  },
+  {
+    "title": "Monetary communication spillovers in open economies",
+    "authors": "Example, A.; Example, B.",
+    "year": 2026,
+    "journal": "Working Paper",
+    "type": "working-paper",
+    "tags": ["spillovers", "sentiment", "panel data"],
+    "link": "https://example.org/paper-1"
+  },
+  {
+    "title": "Central bank language and inflation expectation anchoring",
+    "authors": "Sample, C.; Sample, D.",
+    "year": 2025,
+    "journal": "Journal of Monetary Research",
+    "type": "journal",
+    "tags": ["inflation", "expectations", "communication"],
+    "link": "https://example.org/paper-2"
+  },
+  {
+    "title": "Readability of policy statements in crisis periods",
+    "authors": "Demo, E.; Demo, F.",
+    "year": 2025,
+    "journal": "Policy Note",
+    "type": "policy-note",
+    "tags": ["readability", "crisis", "text metrics"],
+    "link": "https://example.org/paper-3"
+  }
+]
