@@ -28,14 +28,29 @@
   <main>
     <section class="hero reveal">
       <p class="eyebrow">Global Central Bank Text Resource</p>
-      <h1>Build better monetary policy research with transparent text data.</h1>
+      <h1>Monetary Policy Statement Database</h1>
       <p class="lead">
-        MPSD is a machine-readable collection of policy statements from major central banks, designed for studies on communication,
-        expectations, and international monetary transmission.
+        MPSD provides a standardized, machine-readable dataset of policy statements from major central banks worldwide —
+        built for research on communication trends, inflation dynamics, and global monetary policy transmission.
       </p>
+      <div class="badge-strip" aria-label="Version and license badges">
+        <a href="https://github.com/CentralBankTexts/monetary-policy-statement-database" target="_blank" rel="noreferrer">
+          <img src="https://img.shields.io/badge/version-v0.1%20Beta-blue" alt="Version v0.1 Beta" />
+        </a>
+        <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noreferrer">
+          <img src="https://img.shields.io/badge/Data%20License-CC%20BY--NC%204.0-lightgrey" alt="Data License CC BY-NC 4.0" />
+        </a>
+        <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noreferrer">
+          <img src="https://img.shields.io/badge/Code%20License-MIT-green" alt="Code License MIT" />
+        </a>
+        <a href="https://www.bis.org/ifc/publ/ifcb67_14.pdf" target="_blank" rel="noreferrer">
+          <img src="https://img.shields.io/badge/DOI-IFC%20Bulletin%2067-orange" alt="DOI IFC Bulletin 67" />
+        </a>
+      </div>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="papers.html">See Papers Using MPSD</a>
-        <a class="btn btn-ghost" href="contact.html">Request Access</a>
+        <a class="btn btn-primary" href="contact.html">Request Access</a>
+        <a class="btn btn-ghost" href="papers.html">See Papers</a>
+        <a class="btn btn-ghost" href="methodology.html">Methodology</a>
       </div>
     </section>
 
@@ -49,31 +64,44 @@
         <p>Central banks</p>
       </article>
       <article>
-        <h2>1990-2024</h2>
-        <p>Coverage window</p>
+        <h2>1990–2024</h2>
+        <p>Coverage period</p>
       </article>
       <article>
-        <h2>v0.1</h2>
-        <p>Current release (Beta)</p>
+        <h2>v0.1 Beta</h2>
+        <p>Current release</p>
       </article>
     </section>
 
-    <section class="grid-2 reveal">
-      <article class="card">
-        <h3>Why researchers use MPSD</h3>
-        <ul>
-          <li>Cross-country comparable communication indicators</li>
-          <li>Structured text pipeline with reproducible outputs</li>
-          <li>Ready for sentiment, readability, and topic analysis</li>
-        </ul>
+    <section class="section-heading reveal">
+      <h2>Key Research Findings</h2>
+    </section>
+
+    <section class="grid-3 reveal stagger">
+      <article class="card finding-card">
+        <div class="finding-icon" aria-hidden="true">📈</div>
+        <h3>Communication Trends</h3>
+        <p>Policy statements have increased in length since the 2008 Global Financial Crisis, with modest improvements in readability.</p>
       </article>
-      <article class="card">
-        <h3>How to access</h3>
-        <p>
-          MPSD is currently in a semi-public beta period. Approved researchers can request access through the registration form and GitHub authorization.
-        </p>
-        <a class="text-link" href="contact.html">Read access policy</a>
+      <article class="card finding-card">
+        <div class="finding-icon" aria-hidden="true">🌐</div>
+        <h3>Global Synchronization</h3>
+        <p>Inflation references show significant comovement across countries during global inflation episodes.</p>
       </article>
+      <article class="card finding-card">
+        <div class="finding-icon" aria-hidden="true">📡</div>
+        <h3>Sentiment Impact</h3>
+        <p>LLM-derived sentiment indicators suggest central bank communication can <em>predict</em> the Global Financial Cycle rather than merely reacting to it.</p>
+      </article>
+    </section>
+
+    <section class="beta-notice card reveal">
+      <p>
+        <strong>Beta release — March 2026.</strong>
+        This is a preliminary release; the full version will be published upon journal acceptance.
+        Structure and content may change. Access is granted for academic research purposes only.
+      </p>
+      <a class="text-link" href="contact.html">How to request access →</a>
     </section>
   </main>
 

@@ -158,6 +158,35 @@ h1 {
   max-width: 70ch;
 }
 
+.meta-inline {
+  margin: 0.55rem 0 0.7rem;
+  font-size: 0.93rem;
+  color: var(--ink-soft);
+}
+
+.badge-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.75rem 0 1rem;
+}
+
+.badge-strip a {
+  display: inline-flex;
+  line-height: 0;
+  border-radius: 999px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.badge-strip a:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(40, 35, 24, 0.15);
+}
+
+.badge-strip img {
+  height: 22px;
+}
+
 .hero-actions {
   margin-top: 1.2rem;
   display: flex;
@@ -213,6 +242,18 @@ h1 {
   box-shadow: 0 8px 22px rgba(40, 35, 24, 0.06);
 }
 
+.card {
+  margin-top: 1rem;
+}
+
+.card h2 {
+  margin-bottom: 0.6rem;
+}
+
+.card p {
+  margin: 0.5rem 0;
+}
+
 .stats h2 {
   font-size: 1.4rem;
   margin-bottom: 0.2rem;
@@ -230,9 +271,155 @@ h1 {
   gap: 0.9rem;
 }
 
+.grid-3 {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.section-heading {
+  margin-top: 2rem;
+  margin-bottom: 0.1rem;
+}
+
+.section-heading h2 {
+  font-size: 1.35rem;
+  font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+.finding-card {
+  text-align: center;
+}
+
+.finding-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.beta-notice {
+  margin-top: 1.5rem;
+  background: linear-gradient(135deg, rgba(255,247,236,0.9), rgba(231,244,238,0.7));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.beta-notice p {
+  margin: 0;
+  flex: 1;
+}
+
+.access-steps {
+  margin-top: 0.5rem;
+}
+
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.2rem 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.steps-list li {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.step-num {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.steps-list p {
+  margin: 0.2rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.93rem;
+}
+
+.citation-text {
+  background: rgba(23, 107, 88, 0.06);
+  border-left: 3px solid var(--accent);
+  padding: 0.6rem 0.85rem;
+  border-radius: 0 8px 8px 0;
+  margin: 0.6rem 0;
+}
+
+.citation-grid {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.9rem;
+  align-items: start;
+}
+
+.citation-prose,
+.citation-bibtex {
+  height: 100%;
+}
+
+.citation-note {
+  margin-top: 0.8rem;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
 .card ul,
 .card ol {
   padding-left: 1.2rem;
+}
+
+.toc-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.88), rgba(231, 244, 238, 0.68));
+}
+
+.toc-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.toc-list li {
+  margin: 0;
+}
+
+.toc-list a {
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.4rem 0.75rem;
+  background: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+}
+
+.citation-block {
+  margin: 0.8rem 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.65);
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 0.86rem;
+  line-height: 1.45;
 }
 
 .page-intro {
@@ -340,8 +527,14 @@ select {
 @media (max-width: 900px) {
   .stats,
   .grid-2,
+  .grid-3,
+  .citation-grid,
   .papers-list {
     grid-template-columns: 1fr;
+  }
+
+  .beta-notice {
+    flex-direction: column;
   }
 
   .filters {
@@ -368,5 +561,9 @@ select {
 
   .nav.open {
     display: flex;
+  }
+
+  .toc-list {
+    grid-template-columns: 1fr;
   }
 }
