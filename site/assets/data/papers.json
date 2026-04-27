@@ -1,38 +1,20 @@
 [
   {
-    "title": "The monetary policy statement database",
+    "title": "The Monetary Policy Statement Database",
     "authors": "Baird, C.; Benchimol, J.; Vyshnevska, V.; Sohn, W.; Vyshnevskyi, I.",
     "year": 2026,
-    "journal": "IFC Bulletin, 67",
+    "journal": "Data Science in Central Banking, IFC Bulletin No. 67, Chapter 14. Bank for International Settlements",
     "type": "journal",
-    "tags": ["foundational", "dataset", "central banks"],
+    "tags": ["foundational", "dataset", "central banks", "bis"],
     "link": "https://www.bis.org/ifc/publ/ifcb67_14.pdf"
   },
   {
-    "title": "Monetary communication spillovers in open economies",
-    "authors": "Example, A.; Example, B.",
+    "title": "The Monetary Policy Statement Database: An LLM Application to Global Financial Conditions",
+    "authors": "Baird, C.; Benchimol, J.; Sohn, W.; Vyshnevska, V.; Vyshnevskyi, I.",
     "year": 2026,
-    "journal": "Working Paper",
+    "journal": "CAMA Working Papers, Issue 2026-25. Centre for Applied Macroeconomic Analysis, Crawford School of Public Policy, The Australian National University",
     "type": "working-paper",
-    "tags": ["spillovers", "sentiment", "panel data"],
-    "link": "https://example.org/paper-1"
-  },
-  {
-    "title": "Central bank language and inflation expectation anchoring",
-    "authors": "Sample, C.; Sample, D.",
-    "year": 2025,
-    "journal": "Journal of Monetary Research",
-    "type": "journal",
-    "tags": ["inflation", "expectations", "communication"],
-    "link": "https://example.org/paper-2"
-  },
-  {
-    "title": "Readability of policy statements in crisis periods",
-    "authors": "Demo, E.; Demo, F.",
-    "year": 2025,
-    "journal": "Policy Note",
-    "type": "policy-note",
-    "tags": ["readability", "crisis", "text metrics"],
-    "link": "https://example.org/paper-3"
+    "tags": ["llm", "global financial conditions", "working paper"],
+    "link": "https://cama.crawford.anu.edu.au/publication/cama-working-paper-series/23354/monetary-policy-statement-database-llm-application"
   }
 ]
