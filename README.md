@@ -29,6 +29,37 @@ Alternatively, with Node.js:
 npx serve site
 ```
 
+## Publish (GitHub Pages)
+
+This repository is configured to deploy automatically with GitHub Actions using:
+
+- `.github/workflows/deploy-pages.yml`
+
+### Steps
+
+1. Open **GitHub repository Settings -> Pages**.
+2. Under **Source**, select **GitHub Actions**.
+3. Push changes to `master` (or run the workflow manually) to trigger deployment.
+
+### Default Page URL
+
+Once deployment succeeds, the site URL is:
+
+https://iegor-vy.github.io/monetary-policy-statement-database-website/
+
+## Custom Domain (`mpsd.io`)
+
+If you own `mpsd.io`, you can map it to GitHub Pages:
+
+1. In **Settings -> Pages**, set **Custom domain** to `mpsd.io`.
+2. Add these DNS A records for the apex (`@`):
+  - `185.199.108.153`
+  - `185.199.109.153`
+  - `185.199.110.153`
+  - `185.199.111.153`
+3. (Optional) Add `www` CNAME -> `iegor-vy.github.io`.
+4. Enable **Enforce HTTPS** after DNS is verified.
+
 ## Collaborators
 
 This is a **private repository**. Collaborators must be added via GitHub Settings → Collaborators. After cloning, run the server command above to view the site locally.
@@ -60,9 +91,13 @@ Edit `site/assets/data/papers.json`. Each entry supports the following fields:
   "year": "2026",
   "type": "journal | working-paper | policy-note",
   "tags": ["tag1", "tag2"],
-  "url": "https://..."
+  "link": "https://..."
 }
 ```
+
+## License
+
+Repository license text: [LICENSE.txt](LICENSE.txt)
 
 ## Citation
 
