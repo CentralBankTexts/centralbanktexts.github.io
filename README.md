@@ -45,7 +45,7 @@ This repository is configured to deploy automatically with GitHub Actions using:
 
 Once deployment succeeds, the site URL is:
 
-https://iegor-vy.github.io/monetary-policy-statement-database-website/
+https://iegor-vy.github.io/mpsd/
 
 ## Custom Domain (`mpsd.io`)
 
