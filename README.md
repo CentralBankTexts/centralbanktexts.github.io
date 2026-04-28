@@ -45,7 +45,7 @@ This repository is configured to deploy automatically with GitHub Actions using:
 
 Once deployment succeeds, the site URL is:
 
-https://iegor-vy.github.io/mpsd/
+https://CentralBankTexts.github.io/monetary-policy-statement-database-website/
 
 ## Custom Domain (`mpsd.io`)
 
@@ -57,7 +57,7 @@ If you own `mpsd.io`, you can map it to GitHub Pages:
   - `185.199.109.153`
   - `185.199.110.153`
   - `185.199.111.153`
-3. (Optional) Add `www` CNAME -> `iegor-vy.github.io`.
+3. (Optional) Add `www` CNAME -> `CentralBankTexts.github.io`.
 4. Enable **Enforce HTTPS** after DNS is verified.
 
 ## Collaborators
