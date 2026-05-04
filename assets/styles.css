@@ -504,9 +504,10 @@ select {
 
 .site-disclaimer {
   margin-top: 0.45rem;
-  font-size: 0.76rem;
+  font-size: 0.68rem;
   line-height: 1.45;
   color: rgba(31, 36, 48, 0.72);
+  font-style: italic;
   max-width: 90ch;
 }
 
