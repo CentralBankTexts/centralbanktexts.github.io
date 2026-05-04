@@ -498,6 +498,18 @@ select {
   padding-top: 1rem;
 }
 
+.site-footer p {
+  margin: 0;
+}
+
+.site-disclaimer {
+  margin-top: 0.45rem;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: rgba(31, 36, 48, 0.72);
+  max-width: 90ch;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(14px);
