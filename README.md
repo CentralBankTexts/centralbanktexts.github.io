@@ -2,7 +2,7 @@
 
 Website for the **Monetary Policy Statement Database (MPSD)** — a standardized, machine-readable dataset of 6,693 policy statements from 51 central banks (1990–2024), designed for research on communication trends, inflation dynamics, and global monetary policy transmission.
 
-> **Version:** v0.1 Beta · **Data License:** CC BY-NC 4.0 · **Code License:** MIT · **DOI:** [IFC Bulletin No. 67](https://www.bis.org/ifc/publ/ifcb67_14.pdf)
+> **Version:** v0.1 Beta · **License:** CC BY-NC 4.0 · **DOI:** [IFC Bulletin No. 67](https://www.bis.org/ifc/publ/ifcb67_14.pdf)
 
 ## Pages
 
