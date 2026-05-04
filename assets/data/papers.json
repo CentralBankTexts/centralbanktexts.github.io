@@ -1,0 +1,20 @@
+[
+  {
+    "title": "The Monetary Policy Statement Database",
+    "authors": "Baird, C.; Benchimol, J.; Vyshnevska, V.; Sohn, W.; Vyshnevskyi, I.",
+    "year": 2026,
+    "journal": "Data Science in Central Banking, IFC Bulletin No. 67, Chapter 14. Bank for International Settlements",
+    "type": "working-paper",
+    "tags": ["foundational", "dataset", "central banks", "bis"],
+    "link": "https://www.bis.org/ifc/publ/ifcb67_14.pdf"
+  },
+  {
+    "title": "The Monetary Policy Statement Database: An LLM Application to Global Financial Conditions",
+    "authors": "Baird, C.; Benchimol, J.; Sohn, W.; Vyshnevska, V.; Vyshnevskyi, I.",
+    "year": 2026,
+    "journal": "CAMA Working Papers, Issue 2026-25. Centre for Applied Macroeconomic Analysis, Crawford School of Public Policy, The Australian National University",
+    "type": "working-paper",
+    "tags": ["llm", "global financial conditions", "working paper"],
+    "link": "https://cama.crawford.anu.edu.au/publication/cama-working-paper-series/23354/monetary-policy-statement-database-llm-application"
+  }
+]

@@ -15,7 +15,7 @@ Website for the **Monetary Policy Statement Database (MPSD)** — a standardized
 
 ## Live Site
 
-https://CentralBankTexts.github.io/monetary-policy-statement-database-website/
+https://centralbanktexts.github.io/
 
 ## Data Repository
 
@@ -25,21 +25,22 @@ https://github.com/CentralBankTexts/monetary-policy-statement-database
 ## Structure
 
 ```
-site/
-  index.html          # Home
-  papers.html         # Papers list
-  methodology.html    # Methodology & features
-  contact.html        # Access, citation, license
-  assets/
-    styles.css        # All styles
-    main.js           # Navigation toggle + papers page logic
-    data/
-      papers.json     # Papers data — edit this to add/update entries
+index.html            # Home
+papers.html           # Papers list
+methodology.html      # Methodology & features
+contact.html          # Access, citation, license
+assets/
+  styles.css          # All styles
+  main.js             # Navigation toggle + papers page logic
+  data/
+    papers.json       # Papers data - edit this to add/update entries
+
+site/                 # Legacy copy of the previous project-site layout
 ```
 
 ## Update Papers List
 
-Edit `site/assets/data/papers.json`. Each entry supports the following fields:
+Edit `assets/data/papers.json`. Each entry supports the following fields:
 
 ```json
 {
