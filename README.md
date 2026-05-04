@@ -57,6 +57,13 @@ Edit `assets/data/papers.json`. Each entry supports the following fields:
 
 Repository license text: [LICENSE.txt](LICENSE.txt)
 
+## Access Policy Terms
+
+2. By requesting access, you agree to cite the following reference in any research using this dataset:
+3. A journal version of this work is currently under review. Users will be notified when the final publication becomes available.
+4. The dataset may not be redistributed or publicly shared without permission.
+5. I agree to cite the specified reference(s) in any research or publication using this dataset or code.
+
 ## Citation
 
 Baird, C., Benchimol, J., Vyshnevska, V., Sohn, W., & Vyshnevskyi, I. (2026). The Monetary Policy Statement Database. In *Data Science in Central Banking*, IFC Bulletin No. 67, Chapter 14. Bank for International Settlements.
