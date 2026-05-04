@@ -35,7 +35,6 @@ assets/
   data/
     papers.json       # Papers data - edit this to add/update entries
 
-site/                 # Legacy copy of the previous project-site layout
 ```
 
 ## Update Papers List
